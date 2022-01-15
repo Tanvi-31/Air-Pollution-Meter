@@ -131,10 +131,10 @@ void loop() {
             {
               client.println("</style></head><body><h2>POOR AIR :(</h2>");
             }
-			else if (air_quality >= 2000)
-			{
-			  client.println("</style></head><body><h2>ALERT!TOXIC AIR!ALERT</h2>");
-			}
+	    else if (air_quality >= 2000)
+	    {
+	      client.println("</style></head><body><h2>ALERT!TOXIC AIR!ALERT</h2>");
+	    }
 			
             client.println("<table><tr><th>MEASUREMENT</th><th>VALUE</th></tr>");
             client.println("<tr><td>Pollution PPM</td><td><span class=\"sensor\">");
